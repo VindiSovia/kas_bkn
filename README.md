@@ -1,16 +1,7 @@
-# kas_bkn
+Aplikasi Pencatatan Pengeluaran Sederhana
 
-A new Flutter project.
+Skenario
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Anda baru saja diterima di sebuah perusahaan startup fintech yang  bernama PT. BKN (Buku Kas Nusantara). Tugas pertama Anda adalah membuat sebuah aplikasi sederhana yang dapat membantu pengguna mencatat pemasukan dan pengeluaran mereka. Aplikasi ini nantinya akan diunggah ke PlayStore dan dapat diunduh pengguna secara CumaCuma. Secara garis besar, aplikasi ini hanyalah aplikasi baca dan tulis data sederhana. Data disimpan di penyimpanan lokal ponsel pengguna yaitu 
+di SQLite. Dengan menggunakan aplikasi ini, user akan dapa menyimpan tanggal, nominal, dan keterangan dari pemasukan maupun 
+pengeluaran mereka. Setiap pengeluaran dan pemasukan kemudian akan ditampilkan totalnya.
