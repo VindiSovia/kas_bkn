@@ -75,6 +75,7 @@ class Beranda extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/pemasukan': (context) => Pemasukan(),
+        '/beranda': (context) => Beranda(),
       },
     );
   }
