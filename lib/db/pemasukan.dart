@@ -1,0 +1,12 @@
+import 'package:drift/drift.dart';
+
+@DataClassName('IsiPemasukan')
+class IsiPemasukan extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  DateTimeColumn get date => dateTime()();
+  IntColumn get nominal => integer()();
+  TextColumn get keterangan => text().withLength(max: 128)();
+  DateTimeColumn get createdAt => dateTime()();
+  DateTimeColumn get updatedAt => dateTime()();
+  DateTimeColumn get delatedAt => dateTime().nullable()();
+}
