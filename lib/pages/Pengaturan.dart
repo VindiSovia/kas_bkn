@@ -15,7 +15,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   String developerName = "VINDI SOVIA ANGGITA";
   String developerNim = "21417640019";
-  String dateApp = "27 September 2023";
+  String dateApp = "27 SEPTEMBER 2023";
 
   final DbHelper dbHelper = DbHelper();
 
@@ -97,9 +97,9 @@ class _SettingsPageState extends State<SettingsPage> {
                       const Text(
                         "About this App",
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 18),
+                            fontWeight: FontWeight.bold, fontSize: 20),
                       ),
-                      const Text("Aplikasi ini dibuat oleh: "),
+                      const Text("Aplikasi ini dibuat oleh "),
                       Text("Nama: $developerName"),
                       Text("NIM : $developerNim"),
                       Text("Tanggal : $dateApp"),
