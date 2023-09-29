@@ -199,4 +199,24 @@ class DbHelper {
     }
     return _database!;
   }
+
+  // Future<List<Finance>> fetchDataFromDatabase() async {
+  //   Database db = await this.database;
+
+  //   // Fetch data from the database and convert it to a list of Finance objects
+  //   List<Map<String, dynamic>> hasil = await db.query('finance');
+  //   List<Finance> dataPoints = [];
+
+  //   for (var row in hasil) {
+  //     dataPoints.add(Finance(row['amount'], row['date'], row['amount'],
+  //         row['amount'] * 1.0)); // Ensure 'amount' is cast to double
+  //   }
+
+  //   return dataPoints;
+  // }
+
+  // // Future<List<Map<String, dynamic>>> fetchDataFromDatabase() async {
+  //   Database db = await this.database;
+  //   return await db.query('finance'); // 'finance' adalah nama tabel
+  // }
 }

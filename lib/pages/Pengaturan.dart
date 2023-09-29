@@ -15,7 +15,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   String developerName = "VINDI SOVIA ANGGITA";
   String developerNim = "21417640019";
-  String dateApp = "26 September 2023";
+  String dateApp = "27 September 2023";
 
   final DbHelper dbHelper = DbHelper();
 
@@ -42,9 +42,9 @@ class _SettingsPageState extends State<SettingsPage> {
               obscureText: true,
               decoration: const InputDecoration(
                 labelText: "Password Saat Ini",
-                labelStyle: TextStyle(color: Colors.green),
+                labelStyle: TextStyle(color: Colors.black),
                 focusedBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(color: Colors.green)),
+                    borderSide: BorderSide(color: Colors.black)),
               ),
             ),
             TextField(
@@ -52,9 +52,9 @@ class _SettingsPageState extends State<SettingsPage> {
               obscureText: true,
               decoration: const InputDecoration(
                 labelText: "Password Baru",
-                labelStyle: TextStyle(color: Colors.green),
+                labelStyle: TextStyle(color: Colors.black),
                 focusedBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(color: Colors.green)),
+                    borderSide: BorderSide(color: Colors.black)),
               ),
             ),
             const SizedBox(height: 20),
@@ -68,7 +68,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(16.0)))),
-              child: const Text("Simpan Password Baru"),
+              child: const Text("Simpan Password"),
             ),
             ElevatedButton(
                 onPressed: () {
@@ -76,7 +76,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 },
                 style: ButtonStyle(
                     backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.green.shade800),
+                        MaterialStateProperty.all<Color>(Colors.blue),
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(16.0)))),
@@ -85,8 +85,7 @@ class _SettingsPageState extends State<SettingsPage> {
             Row(
               children: [
                 const CircleAvatar(
-                  backgroundImage: AssetImage(
-                      'assets/images/pas_foto.png'), // Gantilah dengan path gambar Anda
+                  backgroundImage: AssetImage('assets/images/pas_foto.png'),
                   radius: 50,
                 ),
                 Container(

@@ -66,39 +66,40 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 20,
             ),
-            Container(
-              margin: EdgeInsets.only(left: 10, right: 10),
-              width: MediaQuery.of(context).size.width,
-              height: 200,
-              child: LineChart(LineChartData(
-                  gridData: FlGridData(show: false),
-                  titlesData: FlTitlesData(show: false),
-                  borderData: FlBorderData(
-                      show: true,
-                      border: Border.all(color: Colors.black, width: 1)),
-                  minX: 0,
-                  maxX: 7,
-                  minY: 0,
-                  maxY: 1000,
-                  lineBarsData: [
-                    LineChartBarData(
-                      spots: [
-                        FlSpot(0, 200),
-                        FlSpot(1, 150),
-                        FlSpot(2, 450),
-                        FlSpot(3, 300),
-                        FlSpot(4, 600),
-                        FlSpot(5, 500),
-                        FlSpot(6, 800),
-                        FlSpot(7, 1000),
-                      ],
-                      isCurved: true,
-                      color: Colors.green,
-                      dotData: FlDotData(show: false),
-                      belowBarData: BarAreaData(show: false),
-                    )
-                  ])),
-            ),
+            // Container(
+            //   margin: EdgeInsets.only(left: 10, right: 10),
+            //   width: MediaQuery.of(context).size.width,
+            //   height: 200,
+            //   child: LineChart(LineChartData(
+            //       gridData: FlGridData(show: false),
+            //       titlesData: FlTitlesData(show: false),
+            //       borderData: FlBorderData(
+            //           show: true,
+            //           border: Border.all(color: Colors.black, width: 1)),
+            //       minX: 0,
+            //       maxX: 7,
+            //       minY: 0,
+            //       maxY: 1000,
+            //       lineBarsData: [
+            //         LineChartBarData(
+            //           // spots: [
+            //           //   FlSpot(0, 200),
+            //           //   FlSpot(1, 150),
+            //           //   FlSpot(2, 450),
+            //           //   FlSpot(3, 300),
+            //           //   FlSpot(4, 600),
+            //           //   FlSpot(5, 500),
+            //           //   FlSpot(6, 800),
+            //           //   FlSpot(7, 1000),
+            //           // ],
+
+            //           isCurved: true,
+            //           color: Colors.green,
+            //           dotData: FlDotData(show: false),
+            //           belowBarData: BarAreaData(show: false),
+            //         )
+            //       ])),
+            // ),
             SizedBox(
               height: 20,
             ),

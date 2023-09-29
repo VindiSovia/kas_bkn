@@ -20,7 +20,7 @@ class Finance {
   set type(String? value) => this._type = value;
 
   // konstruktor versi 1
-  Finance(this._date, this._amount, this._description,this._type);
+  Finance(this._date, this._amount, this._description, this._type);
 
   // konstruktor versi 2: konversi dari Map ke Item
   Finance.fromMap(Map<String, dynamic> map) {

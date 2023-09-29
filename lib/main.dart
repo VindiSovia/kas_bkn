@@ -1,10 +1,10 @@
 import 'package:kas_bkn/constant/route_constants.dart';
-import 'package:kas_bkn/pages/AddExpenditurePage.dart';
-import 'package:kas_bkn/pages/AddIncomePage.dart';
-import 'package:kas_bkn/pages/DetailCashFlowPage.dart';
-import 'package:kas_bkn/pages/HomePage.dart';
-import 'package:kas_bkn/pages/LoginPage.dart';
-import 'package:kas_bkn/pages/SettingsPage.dart';
+import 'package:kas_bkn/pages/FormPengeluaran.dart';
+import 'package:kas_bkn/pages/FormPemasukan.dart';
+import 'package:kas_bkn/pages/ListKeuangan.dart';
+import 'package:kas_bkn/pages/Beranda.dart';
+import 'package:kas_bkn/pages/Login.dart';
+import 'package:kas_bkn/pages/Pengaturan.dart';
 import 'package:kas_bkn/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "MyCashBook App",
+      title: "PENCATATAN KEUANGAN",
       theme: ThemeData(primaryColor: Colors.white),
       routes: routes,
     );

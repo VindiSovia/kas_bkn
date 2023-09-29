@@ -36,13 +36,13 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
                   children: [
                     Image.asset(
-                      'assets/images/icon.png',
+                      'assets/images/book.png',
                       width: 200,
                       height: 150,
                     ),
                     const SizedBox(height: 10), // Add spacing
                     Text(
-                      "MyCashBook App",
+                      "PENCATATAN KEUANGAN",
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -64,12 +64,12 @@ class _LoginPageState extends State<LoginPage> {
                   },
                   decoration: const InputDecoration(
                       border: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.green)),
+                          borderSide: BorderSide(color: Colors.black)),
                       focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.green)),
+                          borderSide: BorderSide(color: Colors.black)),
                       labelText: 'Email',
                       hintText: "Enter valid email",
-                      labelStyle: TextStyle(color: Colors.green)),
+                      labelStyle: TextStyle(color: Colors.black)),
                 ),
               ),
               Padding(
@@ -86,12 +86,12 @@ class _LoginPageState extends State<LoginPage> {
                   obscureText: true,
                   decoration: const InputDecoration(
                       border: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.green)),
+                          borderSide: BorderSide(color: Colors.black)),
                       focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.green)),
+                          borderSide: BorderSide(color: Colors.black)),
                       labelText: 'Password',
                       hintText: 'Enter secure password',
-                      labelStyle: TextStyle(color: Colors.green)),
+                      labelStyle: TextStyle(color: Colors.black)),
                 ),
               ),
               Container(
@@ -99,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
                 width: 250,
                 margin: const EdgeInsets.only(top: 30.0),
                 decoration: BoxDecoration(
-                  color: Colors.green,
+                  color: Colors.blue,
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: TextButton(
